@@ -1,1 +1,49 @@
-CSS
+/* =============================
+Base Styles ===================== */
+
+/*main text */
+
+body {
+  background-image: url("../img/backgroundimage.jpg");
+}
+
+
+h1 {
+
+  color: #111111;
+  font-size: 5em;
+
+}
+
+h2 {
+  margin-left:3em;
+  font-size: 50px;
+
+}
+
+img {
+  width:100%;
+  max-width:100%;
+}
+
+
+p {
+  font-family: cursive;
+  margin:25px 50px 25px 50px;
+}
+
+
+.welcome {
+  padding: 0 50px 0 50px;
+
+
+}
+
+
+/* Body */
+/*Main Navigation*/
+
+.main-nav {
+  font-size: 50px;
+
+}
