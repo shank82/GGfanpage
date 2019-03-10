@@ -13,7 +13,7 @@ img {
 
 @media (min-width: 789px) {
 
-/*	.wrap {
+	.wrap {
 		min-height: calc(100vh - 89px);
 	}
 
@@ -21,7 +21,7 @@ img {
 		width: 85%;
 		max-width: 1150px;
 		margin: 0 auto;
-	}  */
+	}
 
 	.featured-img {
 		width: 300px;
