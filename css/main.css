@@ -5,7 +5,7 @@ Base Styles ===================== */
 /*main text */
 
 body {
-  background-image: url("../img/backgroundimage.jpg");
+  background-image: url("./img/backgroundimage.jpg");
   background-attachment: fixed;
 }
 
@@ -14,6 +14,7 @@ h1 {
 
   color: #111111;
   font-size: 5em;
+
 
 }
 
@@ -45,7 +46,27 @@ p {
 /* Body */
 /*Main Navigation*/
 
-.main-nav {
+.nav {
+  font-family: fantasy;
   font-size: 50px;
+  display: inline;
+}
+.active {
+  background-color: red;
+}
+.hover {
+  background-color: black:
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  background-color: white;
+
+}
+
+li {
+  display:inline;
 
 }
