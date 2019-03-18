@@ -3,17 +3,25 @@
 Base Styles ===================== */
 
 /*main text */
-
-/* @font-face {
+ @font-face {
   font-family:"myFirstFont";
   src: url(http://fontstruct.com/fontstructions/show/1028404);
-} */
+}
 
 
 
-body {
+/* body {
   background-attachment: fixed;
   background-image: url("https://ae01.alicdn.com/kf/HTB1euQnmH1YBuNjSszeq6yblFXaM/Galaxy-Stars-Space-Photo-Background-Photography-Backdrop-Quality-Vinyl.jpg_640x640.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+
+
+
+} */
+body {
+  background-attachment: fixed;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/10/56/445818251bc163e.jpg");
   background-repeat:no-repeat;
   background-size: cover;
 
@@ -24,16 +32,13 @@ body {
 
 h1 {
   color: White;
-  font-family:  'Erica One', cursive;
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 50px;
-
+  Font-size: 60px;
 
 
 }
 
 h2 {
+  color:white;
   font-size: 50px;
 
 }
@@ -47,6 +52,7 @@ img {
 
 
 p {
+  color:white;
   font-family: cursive;
   margin:10px 15px ;
 }
@@ -58,21 +64,8 @@ p {
 
 }
 
-
-/*
-.text {
-  background-color: lightgrey;
-  opacity:0.5;
-
-
-}
-.text2 {
-  background-color: lightgrey;
-
-} */
 .text3 {
-  /* background-color: lightgrey;
-  background-size: cover; */
+
 }
 
 
@@ -80,52 +73,49 @@ p {
 
 /* ---- Layout Containers ---- */
 .main-header {
-  background: black;
-	padding-top: 1.5em;
-	padding-bottom: 10em;
-	margin-bottom: 20px;
+	padding-top:1em;
+	padding-bottom: 5em;
+	margin-bottom: 15px;
 }
 
-/*Main Navigation*/
 
 .main-nav {
-  color: white;
-  background-color: lightgrey;
+  color: red;
+  background-color: black;
   opacity:.8;
-  display: block;
+  display:inline-block;
   font-family: sans-serif;
   font-size: 40px;
   padding: 1px 5px;
   text-align: center;
-  text-decoration: none;
-
-
 }
-/*
-.main-nav active {
-  color: green;
-Or this
-} */
+.main-footer {
+  background: #d934ea;
+  padding:2em 0;
+  margin-top: 30px;
+  text-align:center;
+}
+
+
+/*Main Navigation*/
 
 .main-nav a:hover {
   color: green;
 
+
 }
+
+/* Bottom links */
 .links a:hover {
   color: green;
   text-decoration: none;
 }
 
 
-/* .main-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin:0;
-I dont think i need this
-} */
-
 .main-nav li {
-  display: inline;
+  display: inline-block;
+
+  color: red;
 
 }
 
@@ -138,40 +128,27 @@ I dont think i need this
  }
  p {
    font-size: 2em;
+
  }
 
 
    .primary-col {
-     background-color: lightgrey;
+     /* background-color: lightgrey;
      background-size: cover;
-     opacity:.5;
+     opacity:.5; */
      float:left;
      width:auto;
 
    }
 
    .secondary-col {
-     background-color: lightgrey;
+     /* background-color: lightgrey;
      background-size: cover;
-     opacity:.5;
+     opacity:.5; */
      float:left;
      width:auto;
 
    }
-/*
-.container,primary-col {
-  width:500px;
-  height:200px
-  float: left;
-}
-
-.container, secondary-col {
-  width:500px;
-  height:200px;
-  float:left;
-
-} */
-
 
   /* columns */
 
@@ -191,23 +168,22 @@ I dont think i need this
 
  }
  p {
- font-size: 50px;}
+ font-size: 20px;}
 
 
    .primary-col {
-     background-color: lightgrey;
+     /* background-color: lightgrey;
      background-size: cover;
-     opacity:.5;
-     font-size: 15px;
+     opacity:.5; */
      float:left;
      width:60%;
 
    }
 
    .secondary-col {
-     background-color: lightgrey;
+     /* background-color: lightgrey;
      background-size: cover;
-     opacity:.5;
+     opacity:.5; */
      float:right;
      width:40%;
 
