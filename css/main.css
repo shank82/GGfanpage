@@ -10,15 +10,7 @@ Base Styles ===================== */
 
 
 
-/* body {
-  background-attachment: fixed;
-  background-image: url("https://ae01.alicdn.com/kf/HTB1euQnmH1YBuNjSszeq6yblFXaM/Galaxy-Stars-Space-Photo-Background-Photography-Backdrop-Quality-Vinyl.jpg_640x640.jpg");
-  background-repeat:no-repeat;
-  background-size: cover;
 
-
-
-} */
 body {
   background-attachment: fixed;
   background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/10/56/445818251bc163e.jpg");
@@ -73,9 +65,9 @@ p {
 
 /* ---- Layout Containers ---- */
 .main-header {
-	padding-top:1em;
-	padding-bottom: 5em;
+	
 	margin-bottom: 15px;
+
 }
 
 
@@ -84,11 +76,8 @@ p {
   background-color: black;
   opacity:.8;
   display:inline-block;
-  font-family: sans-serif;
-  font-size: 40px;
-  padding: 1px 5px;
-  text-align: center;
 }
+
 .main-footer {
   background: #d934ea;
   padding:2em 0;
@@ -99,8 +88,19 @@ p {
 
 /*Main Navigation*/
 
+.main-nav a{
+  color:white;
+  font-size: 40px;
+  padding: 1px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+
+}
 .main-nav a:hover {
   color: green;
+  text-decoration: none;
+  text-transform: uppercase;
 
 
 }
@@ -114,8 +114,8 @@ p {
 
 .main-nav li {
   display: inline-block;
-
   color: red;
+  text-decoration: none;
 
 }
 
