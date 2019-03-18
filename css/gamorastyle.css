@@ -3,9 +3,49 @@
 img {
   width:100%;
   max-width:100%;
+
+}
+
+/* Navigation Bar */
+.main-nav  {
+  display:block;
+  text-align: right;
+  padding: 10px 15px;
+
+
+}
+
+.main-nav a {
+  font-size: 2em;
+  color: red;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  color: #093a58;
+  text-decoration:none;
 }
 
 
+
+.main-nav li {
+  display:inline;
+  margin-left:10px;
+
+}
+
+
+
+
+ p {
+  margin:25px 50px 25px 50px;
+  padding: 0 10px 0 10px ;
+}
+
+h1 {
+    font-size: 50px;
+    Padding: -10px 0 ;
 }
 /* =================================
   Media Queries
@@ -13,17 +53,46 @@ img {
 
 @media (min-width: 789px) {
 
-	.wrap {
-		min-height: calc(100vh - 89px);
-	}
+  .main-header {
+    position:fixed;
+    width:100%;
+    /* background: grey; */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+    top:0;
 
-	.container {
+
+  }
+
+  body {
+    padding-top:83px;
+  }
+
+}
+
+@media (min-width:300px {
+
+  .main-header {
+    position:fixed;
+    width:100%;
+    background: grey;
+    box-shadow: 0 1px 4px rbga(0, 0, 0, .4);
+    top:0;
+  }
+
+
+}
+
+	/* .wrap {
+		min-height: calc(100vh - 89px);
+	} */
+
+	/* .container {
 		width: 85%;
 		max-width: 1150px;
-		margin: 0 auto;
-	}
+		margin: 0 auto; */
 
-	.featured-img {
+
+	/* .featured-img {
 		width: 300px;
 		float: left;
 		margin-top: 5px;
@@ -31,6 +100,8 @@ img {
 		margin-bottom: 25px;
 		padding: 10px;
 		border: solid 1px #d9e4ea;
-	}
+	} */
 
-}
+/* .main-nav, .main-nav li {
+  float: left;
+  display: inline-block; } */
