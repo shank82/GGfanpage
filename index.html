@@ -4,7 +4,7 @@
     <title> Galaxy Fans</title>
     <!-- <link rel="stylesheet" href="./css/gamorastyle.css" -->
   <link rel="stylesheet" href="./css/main.css">
-
+<script src= "./js/apps.js"></script>
 </head>
 
 <body>
@@ -86,11 +86,36 @@ Have fun with it. Didn't you know you had that much power? You can move mountain
 
             We start with a vision in our heart, and we put it on canvas. All you have to do is let your imagination go wild. If I paint something, I don't want to have to explain what it is. Learn when to stop. We have all at one time or another mixed some mud. Any little thing can be your friend if you let it be.
                   </p>
+                </div>
+<!-- Quiz -->
+                
+        <form id = "quiz" name = "quiz">
+
+                  <p> Question 1</p>
+                  <input id = "mc" type = "radio" name = "question1" value = "The Ravagers"> The Ravagers<br>
+                  <input id = "mc" type = "radio" name = "question1" value = "The Avengers"> The Avengers<br>
+                  <input id = "mc" type = "radio" name = "question1" value = "The Justice League"> The Justice League<br>
+                  <input id = "mc" type = "radio" name = "question1" value = "The X-Men"> The X-Men<br>
+                  <p> Question 2</p>
+                  <input id = "mc" type = "radio" name = "question2" value ="Call Me Ishmel"> Call Me Ishmael <br>
+                  <input id = "mc" type = "radio" name = "question2" value ="Awesome Mix Vol. 1" > Awesome Mix Vol.1<br>
+                  <input id = "mc" type = "radio" name = "question2" value ="Peter's Mix" > Peter's Mix<br>
+                  <input id = "mc" type = "radio" name = "question2" value ="The Best of Conway Tweedy" > The Best of Conway Tweedy<br>
+                  <p> Question 3</p>
+                  <input id = "mc" type = "radio" name = "question3" value ="Thor"> Thor <br>
+                  <input id = "mc" type = "radio" name = "question3" value ="Drax"> Drax <br>
+                  <input id = "mc" type = "radio" name = "question3" value ="Yandue"> Yandue <br>
+                  <input id = "mc" type = "radio" name = "question3" value ="Iron_Man"> Iron Man <br>
+
+                  <input id = "button" type = "button" value = "I rocked it!" oneclick = "check();">
+          </form>
+
+          <div id = "once_checked">
+            <p id = "number_correct"></p>
 
           </div>
 
-
-<!-- links to other sites -->
+              <!-- links to other sites -->
 
     <div class="links">
       <!-- Chat box so you can find places to meet in your city questions city state zip code opens form -->
