@@ -18,6 +18,7 @@ function check() {
           correct++;
       }
 
-  document.getElementById("once_checked").style.visibility = "visible";
+  document.getElementById('once_checked').style.visibility = "visible";
+
   document.getElementById("number_correct").innerHTML = "You got " + correct + "correct.";
 }
