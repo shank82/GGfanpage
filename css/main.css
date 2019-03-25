@@ -2,14 +2,11 @@
 /* =============================
 Base Styles ===================== */
 
-/*main text */
+/*main  */
  @font-face {
   font-family:"myFirstFont";
   src: url(http://fontstruct.com/fontstructions/show/1028404);
 }
-
-
-
 
 body {
   background-attachment: fixed;
@@ -65,8 +62,7 @@ p {
 
 /* ---- Layout Containers ---- */
 .main-header {
-	
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 
 }
 
@@ -79,8 +75,8 @@ p {
 }
 
 .main-footer {
-  background: #d934ea;
-  padding:2em 0;
+  background: darkred;
+  padding:1em 0;
   margin-top: 30px;
   text-align:center;
 }
@@ -105,6 +101,15 @@ p {
 
 }
 
+/* Quiz */
+/* once_checked {
+    visibility: hidden;
+} */
+
+
+
+
+
 /* Bottom links */
 .links a:hover {
   color: green;
@@ -118,6 +123,8 @@ p {
   text-decoration: none;
 
 }
+
+/* Responsive Layout */
 
 @media (min-width: 789px) {
 
