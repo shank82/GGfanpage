@@ -47,21 +47,14 @@ p {
   word-spacing: 3px;
 }
 
-.questions{
-  color:Red;
-}
+
 .welcome {
   padding: 0 50px 0 50px;
 
 
 }
 
-.meetUps {
-  font-size: 25px;
-  color: white;
 
-
-}
 
 
 
@@ -80,13 +73,7 @@ p {
   display:inline-block;
 
 }
-form{
-  padding-bottom: 2em;
-}
-.container2 {
 
-
-}
 .main-footer {
   background: darkred;
   padding:1em 0;
@@ -117,6 +104,12 @@ form{
 
 
 /* Bottom links */
+.meetUps {
+  font-size: 25px;
+  color: white;
+
+
+}
 .links {
   width:50%;
 
@@ -143,7 +136,7 @@ form{
 
 @media (min-width: 789px) {
 
-.container {
+.main_container {
    width:100%;
    margin: auto;
 
@@ -177,8 +170,13 @@ form{
 /* Quiz Form  */
 /*  radio button size change*/
 .quiztitle {
-  color:Green;
+  color:green;
 }
+.questions {
+  color:red;
+}
+in
+
 input[type='radio']{
  transform: scale(1.5);
  padding:2px 2px;
@@ -190,7 +188,7 @@ input[type='radio']{
 	margin-left: 10px;
 	background: #d2def2;
 	padding: 10px 20px 10px 20px;
-	width: 450px;
+	width: 500px;
 	border-radius: 20px;
   float:left;
 
@@ -239,14 +237,21 @@ clearfix::after {
 
 @media (min-width: 1015px) {
 
-.container {
+.main_container {
    width:100%;
    margin: auto;
 
  }
+ h2 {
+   color: White;
+   font-size: 80px;
 
+
+ }
   p {
- font-size: 20px;}
+ font-size: 50px;
+}
+
 
 
    .primary-col {
