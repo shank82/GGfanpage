@@ -25,7 +25,7 @@ function check() {
     }
     // message alert [0,2,1] and if then statement, if variable i is less than or
   // equal to the alert You know nothing will appear and so forth..//
-    var messages = [ "You Rocked it!", "Fan, just not Super", "You know nothing"];
+    var messages = [ "You Rocked it!", "I've seen better", "It gets better"];
     var range;
 // this was really confusing but made sense eventually,after I will add more questions//
     if ( i <= 1) {

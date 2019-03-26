@@ -21,7 +21,7 @@ body {
 
 h1 {
   color: White;
-  Font-size: 60px;
+  font-size: 60px;
 
 
 }
@@ -42,18 +42,24 @@ img {
 
 p {
   color:white;
-  font-family: cursive;
   margin:10px 15px ;
+  font-size: 40px;
+  word-spacing: 3px;
 }
 
-
+.questions{
+  color:Red;
+}
 .welcome {
   padding: 0 50px 0 50px;
 
 
 }
 
-.text3 {
+.meetUps {
+  font-size: 25px;
+  color: white;
+
 
 }
 
@@ -101,18 +107,24 @@ p {
 
 }
 
-/* Quiz */
+/* Quiz Form  */
 once_checked {
     visibility: hidden;
 }
+input[type='radio']
+ { transform: scale(1.5);
+ padding:2px 2px;
+
+ }
+
 
 #quiz {
 	margin-left: 10px;
 	background: #d2def2;
 	padding: 10px 20px 10px 20px;
-	width: 400px;
+	width: 700px;
 	border-radius: 20px;
-	float: left;
+
 
 }
 #button {
@@ -142,7 +154,6 @@ once_checked {
 	padding: 10px 20px 10px 20px;
 	width: 400px;
 	border-radius: 20px;
-	float: left;
 	margin-left: 20px;
 	font-size: 30px;
 
@@ -150,15 +161,21 @@ once_checked {
 }
 #mc {
 	display: inline;
-} 
+  width:15px;
+}
 
 
 
 /* Bottom links */
-.links a:hover {
-  color: green;
-  text-decoration: none;
-}
+.links {
+  width:50%;
+  }
+
+
+  .banner {
+    border-radius: 50%;
+    width: 75%;
+  }
 
 
 .main-nav li {
@@ -184,18 +201,12 @@ once_checked {
 
 
    .primary-col {
-     /* background-color: lightgrey;
-     background-size: cover;
-     opacity:.5; */
      float:left;
      width:auto;
 
    }
 
    .secondary-col {
-     /* background-color: lightgrey;
-     background-size: cover;
-     opacity:.5; */
      float:left;
      width:auto;
 
@@ -218,23 +229,18 @@ once_checked {
    margin: auto;
 
  }
- p {
+
+  p {
  font-size: 20px;}
 
 
    .primary-col {
-     /* background-color: lightgrey;
-     background-size: cover;
-     opacity:.5; */
      float:left;
      width:60%;
 
    }
 
    .secondary-col {
-     /* background-color: lightgrey;
-     background-size: cover;
-     opacity:.5; */
      float:right;
      width:40%;
 
