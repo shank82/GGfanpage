@@ -19,7 +19,7 @@ function check() {
   if (question4 && question4.value === "Rocket") {
     correct++;
   }
-  if (question5 && question5.value === "Rocket") {
+  if (question5 && question5.value === "Raccoon") {
     correct++;
   }
 
