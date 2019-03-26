@@ -78,8 +78,15 @@ p {
   background-color: black;
   opacity:.8;
   display:inline-block;
-}
 
+}
+form{
+  padding-bottom: 2em;
+}
+.container2 {
+
+
+}
 .main-footer {
   background: darkred;
   padding:1em 0;
@@ -108,9 +115,7 @@ p {
 }
 
 /* Quiz Form  */
-once_checked {
-    visibility: hidden;
-}
+
 input[type='radio']
  { transform: scale(1.5);
  padding:2px 2px;
@@ -122,8 +127,9 @@ input[type='radio']
 	margin-left: 10px;
 	background: #d2def2;
 	padding: 10px 20px 10px 20px;
-	width: 700px;
+	width: 400px;
 	border-radius: 20px;
+  float:left;
 
 
 }
@@ -156,9 +162,12 @@ input[type='radio']
 	border-radius: 20px;
 	margin-left: 20px;
 	font-size: 30px;
+  float:left;
 
 
 }
+
+
 #mc {
 	display: inline;
   width:15px;
@@ -169,6 +178,7 @@ input[type='radio']
 /* Bottom links */
 .links {
   width:50%;
+
   }
 
 
