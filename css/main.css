@@ -117,8 +117,9 @@ p {
 
 
   .banner {
-    border-radius: 50%;
+    border-radius: 3%;
     width: 75%;
+    margin-left: 40px;
   }
 
 
@@ -134,7 +135,7 @@ p {
 /*  */
 /*  */
 
-@media (min-width: 789px) {
+@media (min-width: 400px) {
 
 .main_container {
    width:100%;
@@ -235,7 +236,7 @@ clearfix::after {
 }
 
 
-@media (min-width: 1015px) {
+@media (min-width:768px) {
 
 .main_container {
    width:100%;
@@ -250,6 +251,7 @@ clearfix::after {
  }
   p {
  font-size: 50px;
+ margin-bottom: 30px;
 }
 
 
@@ -280,7 +282,12 @@ clearfix::after {
     padding:2px 2px;
 
     }
+    img.secondary-img {
+      width: 80%;
+      align: middle;
+      margin:90px;
 
+    }
 
    #quiz {
    	margin-left: 10px;
