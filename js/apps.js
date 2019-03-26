@@ -1,6 +1,6 @@
 function check() {
 
-    var question1 =document.quiz.question1.value;
+    var question1 =document.quiz.question1.TheRavagers;
     var question2 =document.quiz.question2.value;
     var question3 =document.quiz.question3.value;
     var question4 =document.quiz.question4.value;
@@ -11,17 +11,17 @@ function check() {
       if (question1 == "The Ravagers") {
         correct++;
       }
-      if (question2 == "Awesome Mix Vol.1") {
-        correct++;
-      }
-        if (question3 == "Yandue") {
-          correct++;
-      }
-      if (question4 == "Rocket") {
-        correct++;
-    }
+    //   if (question2 == "Awesome Mix Vol.1") {
+    //     correct++;
+    //   }
+    //     if (question3 == "Yandue") {
+    //       correct++;
+    //   }
+    //   if (question4 == "Rocket") {
+    //     correct++;
+    // }
 
-      var message = [ "You Rocked it!", "You are a Fan,but not a Super Fan", "You know nothing"];
+      var message = ['You Rocked it '];
       var score;
       if (correct == 4) {
         score = 4;

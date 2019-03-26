@@ -4,7 +4,7 @@
     <title> Galaxy Fans</title>
     <!-- <link rel="stylesheet" href="./css/gamorastyle.css" -->
   <link rel="stylesheet" href="./css/main.css">
-  <script src= "../js/apps.js"></script>
+
 
 </head>
 
@@ -89,31 +89,38 @@ Have fun with it. Didn't you know you had that much power? You can move mountain
                   </p>
                 </div>
 <!-- Quiz -->
-    <div class="quiz">
 
-        <form id = "quiz" name = "quiz">
+  <div class="quiz">
+
+        <form id = "quiz" name = "quiz" >
 
                   <p> Question 1</p>
                   <input id = "mc" type = "radio" name = "question1" value = "The Ravagers"> The Ravagers<br>
                   <input id = "mc" type = "radio" name = "question1" value = "The Avengers"> The Avengers<br>
                   <input id = "mc" type = "radio" name = "question1" value = "The Justice League"> The Justice League<br>
                   <input id = "mc" type = "radio" name = "question1" value = "The X-Men"> The X-Men<br>
-                  <p> Question 2</p>
-                  <input id = "mc" type = "radio" name = "question2" value ="Call Me Ishmel"> Call Me Ishmael <br>
-                  <input id = "mc" type = "radio" name = "question2" value ="Awesome Mix Vol. 1" > Awesome Mix Vol.1<br>
-                  <input id = "mc" type = "radio" name = "question2" value ="Peter's Mix" > Peter's Mix<br>
-                  <input id = "mc" type = "radio" name = "question2" value ="The Best of Conway Tweedy" > The Best of Conway Tweedy<br>
+                  <p> Question 2  </p>
+                  <input id = "mc" type = "radio" name = "question2" value = "Call Me Ishmel"> Call Me Ishmael <br>
+                  <input id = "mc" type = "radio" name = "question2" value = "Awesome Mix Vol. 1" > Awesome Mix Vol.1<br>
+                  <input id = "mc" type = "radio" name = "question2" value = "Peter's Mix" > Peter's Mix <br>
+                  <input id = "mc" type = "radio" name = "question2" value = "The Best of Conway Tweedy" > The Best of Conway Tweedy <br>
                   <p> Question 3</p>
-                  <input id = "mc" type = "radio" name = "question3" value ="Thor"> Thor <br>
-                  <input id = "mc" type = "radio" name = "question3" value ="Drax"> Drax <br>
-                  <input id = "mc" type = "radio" name = "question3" value ="Yandue"> Yandue <br>
-                  <input id = "mc" type = "radio" name = "question3" value ="Iron_Man"> Iron Man <br>
-
-                  <input id = "button" type = "button" value = "I rocked it" oneclick = "check()";>
+                  <input id = "mc" type = "radio" name = "question3" value = "Thor"> Thor <br>
+                  <input id = "mc" type = "radio" name = "question3" value = "Drax"> Drax <br>
+                  <input id = "mc" type = "radio" name = "question3" value = "Yandue"> Yandue <br>
+                  <input id = "mc" type = "radio" name = "question3" value = "Iron_Man"> Iron Man <br>
+                  <p> Question 4</p>
+                  <input id = "mc" type = "radio" name = "question4" value = "Thor"> Thor <br>
+                  <input id = "mc" type = "radio" name = "question4" value = "Drax"> Drax <br>
+                  <input id = "mc" type = "radio" name = "question4" value = "Yandue"> Yandue <br>
+                  <input id = "mc" type = "radio" name = "question4" value = "Iron_Man"> Iron Man <br>
+                    <br><br>
+                  <input id = "button" type = "button" value = "I rocked it" onclick = "check();">
           </form>
 
           <div id = "once_checked">
             <p id = "number_correct"></p>
+            <p id ="message"></p>
 
           </div>
         </div>
@@ -132,6 +139,6 @@ Have fun with it. Didn't you know you had that much power? You can move mountain
       <footer class= "main-footer">
           <span>&copy; 2019 Lovers of the Galaxy.</span>
       </footer>
-
+        <script src= "./js/apps.js"></script>
   </body>
 </html>
