@@ -65,7 +65,7 @@
 </div>
   <img src="https://icdn4.digitaltrends.com/image/guardians-of-the-galaxy-vol-2-2-1195x796.jpg" >
         <div class="text3">
-<!-- will be able to take quick 10 question quiz on GOTG -->
+<!-- will be able to take quick quiz on GOTG -->
                   <h2> Are you a superfan? Take the quick quiz! </h2>
                   <p> A true super fan doesn't need 100 or thousands of triva questions. You either are or you aren't a superfan, but that's okay we still love you!!!! Take the short quiz we love doing things like this, keeps it interesting. I'll add a feature so that you guys can suggestions questions, maybe even an open chat. Who knows the galaxy is literally the limit
                     here.
@@ -76,36 +76,42 @@
   <div class="quiz">
 
         <form id = "quiz" name = "quiz" >
-
-                  <p class="questions"> Who kidnapped Peter Quill when he ws a small boy?</p>
-                  <input id = "mc" type = "radio" name = "question1" value = "The Ravagers"> The Ravagers<br>
-                  <input id = "mc" type = "radio" name = "question1" value = "The Avengers"> The Avengers<br>
-
-                  <p class="questions"> What is Star-Lord's music tape called?  </p>
-                  <input id = "mc" type = "radio" name = "question2" value = "Call Me Ishmel"> Call Me Ishmael <br>
-                  <input id = "mc" type = "radio" name = "question2" value = "Awesome Mix Vol.1" > Awesome Mix Vol.1<br>
-                  <input id = "mc" type = "radio" name = "question2" value = "The Best of Conway Tweedy" > The Best of Conway Tweedy <br>
+                <h2 class="quiztitle"> Can you be the one?</h2> <h3>Take the quiz let's see</h1>
+                  <p class="questions"> Who saved Quill as a young boy?</p>
+                  <label><input type = "radio" name = "question1" value = "The Ravagers"> The Ravagers</label><br>
+                  <label><input type = "radio" name = "question1" value = "The Avengers"> The Avengers</label><br>
+                  <label><input type = "radio" name = "question1" value = "The Justice League"> The Justice League</label><br>
+                  <label><input type = "radio" name = "question1" value = "The X-Men"> The X-Men</label><br>
+                  <p class="questions">What does Star Lord listen to in GOTG1? </p>
+                  <label><input type = "radio" name = "question2" value = "Call Me Ishmel"> Call Me Ishmael </label><br>
+                  <label><input type = "radio" name = "question2" value = "Awesome Mix Vol. 1" > Awesome Mix Vol.1</label><br>
+                  <label><input type = "radio" name = "question2" value = "Peter's Mix" > Peter's Mix </label><br>
+                  <label><input type = "radio" name = "question2" value = "The Best of Conway Tweedy" > The Best of Conway Tweedy </label><br>
                   <p class="questions"> Who is Mary Poppins?</p>
-                  <input id = "mc" type = "radio" name = "question3" value = "Thor"> Thor <br>
-                  <input id = "mc" type = "radio" name = "question3" value = "Drax"> Drax <br>
-                  <input id = "mc" type = "radio" name = "question3" value = "Yandue"> Yandue <br>
-                  <input id = "mc" type = "radio" name = "question3" value = "Iron_Man"> Iron Man <br>
-                  <p class="questions">Quill's best friend?</p>
-                  <input id = "mc" type = "radio" name = "question4" value = "Thor"> Thor <br>
-                  <input id = "mc" type = "radio" name = "question4" value = "Drax"> Drax <br>
-                  <input id = "mc" type = "radio" name = "question4" value = "Yandue"> Yandue <br>
-                  <input id = "mc" type = "radio" name = "question4" value = "Rocket"> Rocket <br>
+                  <label><input type = "radio" name = "question3" value = "Thor"> Thor </label><br>
+                  <label><input type = "radio" name = "question3" value = "Drax"> Drax </label><br>
+                  <label><input type = "radio" name = "question3" value = "Yandue"> Yandue </label><br>
+                  <label><input type = "radio" name = "question3" value = "Mary Poppins"> Mary Poppins </label><br>
+                  <p class="questions"> Who is Star-Lord's bestfriend?</p>
+                  <label><input type = "radio" name = "question4" value = "Thor"> Thor </label><br>
+                  <label><input type = "radio" name = "question4" value = "Drax"> Drax </label><br>
+                  <label><input type = "radio" name = "question4" value = "Yandue"> Yandue </label><br>
+                  <label><input type = "radio" name = "question4" value = "Rocket"> Rocket </label><br>
                   <p class="questions"> What is Rocket?</p>
-                  <input id = "mc" type = "radio" name = "question5" value = "Squirel"> Squirel <br>
-                  <input id = "mc" type = "radio" name = "question5" value = "Raccoon"> Racoon <br>
-                  <input id = "mc" type = "radio" name = "question5" value = "Chipmunk"> Chipmunk <br>
+                  <label><input type = "radio" name = "question5" value = "Rabbit"> Rabbit </label><br>
+                  <label><input type = "radio" name = "question5" value = "Raccoon"> Raccoon </label><br>
+                  <label><input type = "radio" name = "question5" value = "Dog"> Dog </label><br>
+                  <label><input type = "radio" name = "question5" value = "Chipmunk"> Chipmunk </label><br>
                     <br><br>
-                  <input id = "button" type = "button" value = "I rocked it" onclick = "check();">
-          </form>
+
+                    <input id = "button" type = "button" value = "I rocked it" onclick = "check();">
+                </form>
+              
+
 
           <div id = "once_checked">
             <p id = "number_correct"></p>
-            <p id ="messages"></p>
+            <p id ="message"></p>
 
           </div>
         </div>
