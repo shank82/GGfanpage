@@ -90,7 +90,17 @@ h1 {
 
 
   }
-
+  img.internal-page {
+      width: 44%;
+      float: left;
+      padding: 50px;
+  }
+/*
+  img.internal-page2 {
+    width:34%
+    float: right;
+    padding:50px;
+  } */
   body {
     padding-top:83px;
   }
