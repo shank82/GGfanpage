@@ -15,12 +15,6 @@ img {
 
 }
 
-/* img,
-drax {
-  width:100%;
-  max-width:100%;
-} */
-
 p {
  margin:25px 50px 25px 50px;
  padding: 0 10px 0 10px ;
@@ -38,17 +32,16 @@ h1 {
 
 .main-footer {
   background: darkgreen;
-  padding:1em 0;
+  padding:1em 0 ;
   margin-top: 30px;
-  text-align:center;
+
+text-align:center;
 }
 /* Navigation Bar */
 .main-nav  {
   display:block;
   text-align: right;
   padding: 10px 15px;
-
-
 }
 
 .main-nav a {
@@ -95,12 +88,7 @@ h1 {
       float: left;
       padding: 50px;
   }
-/*
-  img.internal-page2 {
-    width:34%
-    float: right;
-    padding:50px;
-  } */
+
   body {
     padding-top:83px;
   }
