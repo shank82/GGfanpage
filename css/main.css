@@ -3,19 +3,13 @@
 Base Styles ===================== */
 
 /*main  */
- @font-face {
-  font-family:"myFirstFont";
-  src: url(http://fontstruct.com/fontstructions/show/1028404);
-}
+
 
 body {
   background-attachment: fixed;
   background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/10/56/445818251bc163e.jpg");
   background-repeat:no-repeat;
   background-size: cover;
-
-
-
 }
 
 
@@ -29,13 +23,12 @@ h1 {
 h2 {
   color:white;
   font-size: 50px;
-
 }
 
 img {
   max-width:100%;
   width: 100%;
-  padding-top: 0em:
+  padding-top: 0em;
 
 }
 
@@ -50,8 +43,6 @@ p {
 
 .welcome {
   padding: 0 50px 0 50px;
-
-
 }
 
 
@@ -62,16 +53,13 @@ p {
 /* ---- Layout Containers ---- */
 .main-header {
   margin-bottom: 15px;
-
 }
 
 
 .main-nav {
-  color: red;
   background-color: black;
   opacity:.8;
   display:inline-block;
-
 }
 
 .main-footer {
@@ -90,45 +78,35 @@ p {
   padding: 1px 5px;
   text-decoration: none;
   text-transform: uppercase;
-
-
 }
 .main-nav a:hover {
   color: green;
   text-decoration: none;
   text-transform: uppercase;
-
-
 }
 
+.main-nav li {
+  display: inline-block;
+  color: red;
+  text-decoration: none;
+}
 
-
-/* Bottom links */
+/* Bottom links MeetUps and Deviant Art*/
 .meetUps {
   font-size: 25px;
   color: white;
-
-
 }
 .links {
   width:50%;
+}
 
-  }
-
-
-  .banner {
+.banner {
     border-radius: 3%;
     width: 75%;
     margin-left: 40px;
   }
 
 
-.main-nav li {
-  display: inline-block;
-  color: red;
-  text-decoration: none;
-
-}
 
 /* Responsive Layout */
 /*  */
@@ -140,34 +118,26 @@ p {
 .main_container {
    width:100%;
    margin: auto;
-
- }
+}
  p {
-   font-size: 2em;
-
- }
-
-
-   .primary-col {
+  font-size: 1.5em;
+}
+ .primary-col {
+     float:left;
+     width:auto;
+}
+.secondary-col {
      float:left;
      width:auto;
 
-   }
-
-   .secondary-col {
-     float:left;
-     width:auto;
-
-   }
+}
 
   /* columns */
-
-  .clearfix::after {
+.clearfix::after {
     content: "";
       clear: both;
     display: table;
-
-}
+  }
 /* Quiz Form  */
 /*  radio button size change*/
 .quiztitle {
@@ -176,15 +146,12 @@ p {
 .questions {
   color:red;
 }
-in
 
+/*  Makes the radio buttons bigger*/
 input[type='radio']{
  transform: scale(1.5);
  padding:2px 2px;
-
  }
-
-
 #quiz {
 	margin-left: 10px;
 	background: #d2def2;
@@ -192,8 +159,6 @@ input[type='radio']{
 	width: 500px;
 	border-radius: 20px;
   float:left;
-
-
 }
 /* quiz button layout  */
 #button {
@@ -233,61 +198,47 @@ clearfix::after {
   content: "";
   clear:both;
   display:table;
+  }
 }
-
 
 @media (min-width:768px) {
 
 .main_container {
    width:100%;
    margin: auto;
-
  }
  h2 {
    color: White;
    font-size: 80px;
-
-
- }
+}
   p {
- font-size: 50px;
+ font-size: 30px;
  margin-bottom: 30px;
 }
-
-
-
-   .primary-col {
+.primary-col {
      float:left;
      width:60%;
-
-   }
-
-   .secondary-col {
+}
+.secondary-col {
      float:right;
      width:40%;
-
-   }
-   .clearfix::after {
+ }
+.clearfix::after {
      content: "";
        clear: both;
      display: table;
-
-   }
-
-   .quiztitle {
+ }
+ .quiztitle {
      color:Green;
    }
    input[type='radio']{
     transform: scale(1.5);
     padding:2px 2px;
-
-    }
-    img.secondary-img {
+}
+  img.secondary-img {
       width: 80%;
-      align: middle;
       margin:90px;
-
-    }
+}
 
    #quiz {
    	margin-left: 10px;
@@ -296,11 +247,9 @@ clearfix::after {
    	width: 800px;
    	border-radius: 20px;
      float:left;
-
-
-   }
+ }
    /* quiz button layout  */
-   #button {
+#button {
    	background: green;
    	border: none;
    	border-radius: 5px;
@@ -311,17 +260,14 @@ clearfix::after {
    	margin-top: 15px;
    }
 
-
-
-   #button:hover {
+ #button:hover {
    	background: white;
    	border: 1px solid green;
    	color: black;
    	cursor: pointer;
 
    }
-
-   #once_checked {
+ #once_checked {
    	visibility: hidden;
    	background: #ff5459;
    	padding: 10px 20px 10px 20px;
@@ -330,10 +276,8 @@ clearfix::after {
    	margin-left: 20px;
    	font-size: 30px;
      float:left;
-
-   }
-
-   clearfix::after {
+ }
+ clearfix::after {
      content: "";
      clear:both;
      display:table;
