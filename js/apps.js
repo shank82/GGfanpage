@@ -1,5 +1,6 @@
 function check() {
-// my questions are being selected based on what is in the () using the querySelector by scanning the entire document
+// my questions are being selected based on what is in the () using the querySelector by scanning the entire document and checking to be sure 
+//   of what was selected
   let question1 = document.querySelector('input[name="question1"]:checked');
   let question2 = document.querySelector('input[name="question2"]:checked');
   let question3 = document.querySelector('input[name="question3"]:checked');
