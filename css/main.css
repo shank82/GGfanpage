@@ -10,6 +10,7 @@ body {
   background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/10/56/445818251bc163e.jpg");
   background-repeat:no-repeat;
   background-size: cover;
+
 }
 
 
@@ -24,6 +25,8 @@ h2 {
   color:white;
   font-size: 50px;
 }
+
+
 
 img {
   max-width:100%;
@@ -92,9 +95,11 @@ p {
 }
 
 /* Bottom links MeetUps and Deviant Art*/
-.meetUps {
+
+ .meetUps {
   font-size: 25px;
   color: white;
+  
 }
 .links {
   width:50%;
@@ -156,7 +161,7 @@ input[type='radio']{
 	margin-left: 10px;
 	background: #d2def2;
 	padding: 10px 20px 10px 20px;
-	width: 500px;
+	width: 300px;
 	border-radius: 20px;
   float:left;
 }

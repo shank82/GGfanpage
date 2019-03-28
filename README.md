@@ -7,6 +7,9 @@ Thank you for taking the time to view my page and all of it's galaxy driven cont
 I decided to create a fan page one because who doesn't love the Guardians and two I saw this
 project in my head the moment I found out we had to complete a project.
 
+## Instructions: <br>
+My website is best viewed in Chrome.
+
 
 ## CSS:<br>
 I have several sections :
