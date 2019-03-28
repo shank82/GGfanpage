@@ -30,4 +30,4 @@ Main / Layout Containers / Main Navigation / Bottom Links/ Responsive Layout/ Qu
 ## Javascript:<br>
 
 My function is a HTML and  javascript form, multiple choice with a response message and count of number correct visible.
-queryselector, if and then statment, document.getElementById, as well as an array of messages were used in order to present the final message. Once the message and numbers correct is displ
+queryselector, if and then statment, document.getElementById, as well as an array of messages were used in order to present the final message. Once the message and numbers correct is displayed, the button will reset and the user can tray again.
